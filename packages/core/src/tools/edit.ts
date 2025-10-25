@@ -489,8 +489,8 @@ Expectation for required parameters:
           file_path: {
             description:
               process.platform === 'win32'
-                ? 'The absolute path to the file to modify (e.g., C:\\Users\\project\\file.txt). Must be an absolute path.'
-                : "The absolute path to the file to modify. Must start with '/'.",
+                ? "The absolute path to the file to modify (e.g., 'C:\\Users\\project\\file.txt'). Must be an absolute path."
+                : "The absolute path to the file to modify (e.g., '/home/user/project/file.txt'). Must start with '/'.",
             type: 'string',
           },
           old_string: {
